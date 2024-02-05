@@ -1,0 +1,332 @@
+.page1 {
+    width: 100vw;
+    margin-right: -5px;
+    height: 100vh;
+}
+
+* {
+    margin: 0;padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+.page1{
+    background-color: #222428;
+}
+nav {
+    /* margin-top: 50px; */
+    display: flex;
+    justify-content: space-evenly;
+    gap: 200px;
+}
+
+.logo {
+    margin-top: 50px;
+}
+
+.right ul {
+    margin-top: 50px;
+    display: flex;
+    gap: 70px;
+
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.m {
+    display: flex;
+    justify-content: space-between;
+    gap: 275px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.india {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    color: rgb(128, 163, 234);
+    font-size: 2.625rem;
+    font-family: 'Inter', sans-serif;
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+
+.head1 {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 110.5%;
+}
+
+.leftmain {
+    padding-left: 50px;
+}
+
+.para {
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    grid-column: 1 / 6;
+    line-height: 1.9;
+    margin-top: 1rem;
+}
+
+.LMbtn {
+    background-color: rgb(0, 85, 255);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: var(--font-body);
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 14px 20px;
+}
+
+.CUbtn {
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: var(--font-body);
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 14px 20px;
+}
+
+.companies {
+    background: rgb(244, 249, 253);
+    padding-bottom: 3em;
+    padding-top: 3em;
+    margin-right: -20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.dcom h3 {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(244, 249, 253);
+    color: rgb(8, 36, 73);
+    font-size: 2.125rem;
+    font-weight: bolder;
+    grid-column: 1 / span 12;
+    letter-spacing: -0.03em;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+.dcom{
+
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.grid1{
+    background-color: transparent;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap: 100px;
+    margin: 0;padding: 0;
+    margin-top: 50px;
+}
+.grid1 img{
+    background-color: transparent;
+    margin: 0;padding: 0;
+}
+.grid2{
+    background-color: transparent;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin: 0;padding: 0;
+    margin-top: 50px;
+}
+.grid2 img{
+    background-color: transparent;
+    margin: 0;padding: 0;
+}
+.page3{
+    margin-top: 70px;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://juspay.in/static/bg_circular_dotted_white.png);
+    background-position: 50% center;
+    background-repeat: no-repeat;
+    background-size: 57%;
+}
+.page3{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.payments__header{
+    color: rgb(8, 36, 73);
+    font-family: var(--font-header);
+    font-size: 4rem;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+    margin: -0.2em 0px 0px;
+}
+.header{
+    background-color: transparent;
+    padding-left:250px ;
+    padding-top: 50px;
+}
+.heading{
+    margin: 0px 0px 1.45rem;
+    padding: 0px;
+    background-color: transparent;
+}
+.icongrid1{
+    padding-left:250px ;
+    padding-right:250px ;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.iconimg{
+    margin: 0;padding: 0;
+}
+.icongrid2{
+    padding-left:250px ;
+    padding-right:250px ;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.icontext{
+    color: #234ea4;
+    font-weight: 900;
+    font-size: -webkit-xxx-large;
+    gap: 10px;
+}
+.icontext span{
+    font-size: xxx-large;
+}
+.page4{
+    width: 100vw;
+    height: 285vh;
+    background-color: #222428;
+}
+.p4h{
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+    margin-bottom: 2rem;
+}
+.headdiv4{
+    padding: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.flexpage4{
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.intflexp4{
+    display: flex;
+    gap: 100px;
+}
+.p1{
+    color: rgb(255, 255, 255);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    letter-spacing: 4px;
+    margin-bottom: 1rem;
+    opacity: 0.6;
+    text-transform: uppercase;
+
+}
+.hep4{
+    color: rgb(128, 163, 234);
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    margin-bottom: 1rem;
+}
+.p2{
+    color: rgb(255, 255, 255);
+    font-family: var(--font-body);
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.9;
+}
+.p-{
+    font-size: x-large;
+    padding-top:100px ;
+    padding-left: 250px;
+    padding-right: 250px;
+    letter-spacing: 9px;
+    color: white;
+}
+.p4grid{
+    padding-top:100px ;
+    padding-left: 250px;
+    padding-right: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+}
+.bannergridp4{
+    background: url(/product__insidebanner.png);
+    background-position: 50%;
+    background-size: cover;
+    background: #323646;
+    border-radius: 0.5rem;
+    max-width: 350px;
+}
+.gridheadp4 h1{
+    color: rgb(139, 158, 196);
+    font-size: 4rem;
+    letter-spacing: -0.03em;
+}
+.gridheadp4 p{
+    color: rgb(255, 255, 255);
+    font-family: var(--font-body);
+    font-size: medium;
+    line-height: 1.9;
+    padding-right: 3rem;
+}
+.gridheadp4 button{
+    background-color: #fff;
+    color: #000;
+    margin-top: 1rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: var(--font-body);
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 14px 20px;
+}
+.backgroundp4img{
+    left: -10.333%;
+    max-height: 75.9%;
+    position: absolute;
+}
